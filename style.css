@@ -115,16 +115,16 @@ h1 {
 
 .flex {
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
+  height: 100dvh;
 }
 
 .card {
-  width: 100%;
   padding: 3rem;
-  background-color: var(--clr-neutral-100);
   border-radius: 2rem 2rem 15rem 2rem;
+  width: 100%;
+  background-color: var(--clr-neutral-100);
 }
 
 .card__input {
@@ -140,10 +140,10 @@ h1 {
 .card__input > * > input {
   font-size: var(--fs-600);
   font-weight: 700;
-  width: 10.5rem;
   padding: 0.75rem 1.5rem;
   border: 1px solid var(--clr-neutral-300);
   border-radius: 0.5rem;
+  width: 10.5rem;
   outline: none;
 }
 
@@ -164,8 +164,6 @@ h1 {
 }
 
 .card__button > button {
-  cursor: pointer;
-  text-decoration: none;
   display: grid;
   place-items: center;
   padding: 1rem;
@@ -173,6 +171,8 @@ h1 {
   border-radius: 50%;
   width: 6.25rem;
   aspect-ratio: 1 / 1;
+  cursor: pointer;
+  text-decoration: none;
   background-color: var(--clr-primary);
 }
 
