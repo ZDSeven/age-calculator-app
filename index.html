@@ -22,27 +22,27 @@
         <div class="card__input">
           <div>
             <label for="day">DAY</label>
-            <input id="day" name="day" />
+            <input id="day" name="day" placeholder="DD" />
           </div>
           <div>
             <label for="month">MONTH</label>
-            <input id="month" name="month" />
+            <input id="month" name="month" placeholder="MM" />
           </div>
           <div>
             <label for="year">YEAR</label>
-            <input id="year" name="year" />
+            <input id="year" name="year" placeholder="YYYY" />
           </div>
         </div>
         <div class="card__button">
           <div class="line"></div>
-          <button>
+          <button onclick="getAge()">
             <img src="assets/images/icon-arrow.svg" alt="">
           </button>
         </div>
         <div class="card__age">
-          <h1><span class="result">38</span> years</h1>
-          <h1><span class="result">3</span> months</h1>
-          <h1><span class="result">26</span> days</h1>
+          <h1><span class="result" id="result__year">--</span> years</h1>
+          <h1><span class="result" id="result__month">--</span> months</h1>
+          <h1><span class="result" id="result__day">--</span> days</h1>
         </div>
       </div>
     </div>
